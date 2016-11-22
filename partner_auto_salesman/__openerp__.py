@@ -21,15 +21,15 @@
 
 {
     'name': 'Partner auto salesman',
-    'version': '1.0',
+    'version': '8.0.1.0.0',
     'category': 'Customer Relationship Management',
     'complexity': "easy",
     'description': """Fill the salesman field with the current user id""",
-    'author': 'Savoir-faire Linux',
+    'author': "Savoir-faire Linux,Odoo Community Association (OCA)",
     'website': 'http://www.savoirfairelinux.com',
     'license': 'AGPL-3',
     'depends': ['base'],
-    'installable': True,
+    'installable': False,
     'auto_install': False,
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

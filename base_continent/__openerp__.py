@@ -22,9 +22,9 @@
 
 {
     'name': 'Continent management',
-    'version': '1.0',
+    'version': '8.0.1.0.0',
     'depends': ['base'],
-    'author': 'Camptocamp',
+    'author': "Camptocamp,Odoo Community Association (OCA)",
     'license': 'AGPL-3',
     'description': """
 This module introduces continent management.
@@ -38,5 +38,5 @@ adds continent field on partner form
         'base_continent_data.xml',
         'security/ir.model.access.csv',
     ],
-    'installable': True,
+    'installable': False,
 }

@@ -1,49 +1,26 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    Author: Nicolas Bessi. Copyright Camptocamp SA
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2013 Nicolas Bessi (Camptocamp SA)
+# © 2014 Agile Business Group (<http://www.agilebg.com>)
+# © 2015 Grupo ESOC (<http://www.grupoesoc.es>)
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 {
-    'name': 'Partner first name, last name',
-    'description': """
-This module splits first name and last name for non company partners
-====================================================================
-
-The field 'name' becomes a stored function field concatenating lastname and
-firstname
-Note: in version 7.0, installing this module invalidates a yaml test in the
-'edi' module
-
-Contributors
-============
-Jonathan Nemry <jonathan.nemry@acsone.eu>
-Olivier Laurent <olivier.laurent@acsone.eu>
-
-""",
-    'version': '1.2',
-    'author': 'Camptocamp',
+    'name': 'Partner first name and last name',
+    'summary': "Split first name and last name for non company partners",
+    'version': '9.0.1.0.0',
+    'author': "Camptocamp, "
+              "Grupo ESOC Ingeniería de Servicios, "
+              "Odoo Community Association (OCA)",
+    'license': "AGPL-3",
     'maintainer': 'Camptocamp, Acsone',
     'category': 'Extra Tools',
-    'website': 'http://www.camptocamp.com, http://www.acsone.eu',
+    'website':
+        'http://www.camptocamp.com, http://www.acsone.eu, http://grupoesoc.es',
     'depends': ['base'],
     'data': [
-        'partner_view.xml',
-        'res_user_view.xml',
+        'views/res_partner.xml',
+        'views/res_user.xml',
+        'data/res_partner.yml',
     ],
     'demo': [],
     'test': [],

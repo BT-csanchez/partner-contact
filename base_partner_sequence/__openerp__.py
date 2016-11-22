@@ -22,8 +22,8 @@
 ##############################################################################
 {
     "name": "Add a sequence on customers' code",
-    "version": "1.1",
-    "author": "Tiny/initOS GmbH & Co. KG",
+    "version": "8.0.1.1.0",
+    "author": "Tiny/initOS GmbH & Co. KG,Odoo Community Association (OCA)",
     "category": "Generic Modules/Base",
     "website": "http://www.initos.com",
     "depends": ["base"],
@@ -49,6 +49,6 @@
     ],
     "demo": [],
     "active": False,
-    "installable": True
+    'installable': False
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

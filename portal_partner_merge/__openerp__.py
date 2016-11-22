@@ -19,18 +19,18 @@
 #
 ##############################################################################
 {'name': 'Portal Partner Merge',
- 'version': '1.0',
+ 'version': '8.0.1.0.0',
  'category': 'Hidden',
  'description': """
 Link module for base_partner_merge which extract portal dependency
  """,
- 'author': 'Camptocamp',
+ 'author': "Camptocamp,Odoo Community Association (OCA)",
  'maintainer': 'Camptocamp',
  'website': 'http://www.camptocamp.com/',
  'depends': ['portal', 'base_partner_merge'],
  'data': [],
  'test': [],
- 'installable': True,
+ 'installable': False,
  'auto_install': True,
  'application': False,
  }

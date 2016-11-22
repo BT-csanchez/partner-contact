@@ -22,14 +22,21 @@
 ##############################################################################
 {
     'name': 'Location management (aka Better ZIP)',
-    'version': '1.0',
+    'version': '9.0.1.0.0',
     'depends': ['base'],
-    'author': 'Camptocamp',
+    'author': "Camptocamp,"
+              "ACYSOS S.L.,"
+              "Alejandro Santana,"
+              "Serv. Tecnol. Avanzados - Pedro M. Baeza,"
+              "Odoo Community Association (OCA)",
     'license': "AGPL-3",
     'contributors': [
+        'Nicolas Bessi <nicolas.bessi@camptocamp.com>',
         'Pedro M. Baeza <pedro.baeza@serviciosbaeza.com>',
         'Ignacio Ibeas (Acysos S.L.)',
         'Alejandro Santana <alejandrosantana@anubia.es>',
+        'Sandy Carter <sandy.carter@savoirfairelinux.com>',
+        'Yannick Vaucher <yannick.vaucher@camptocamp.com>',
     ],
     'summary': '''Enhanced zip/npa management system''',
     'website': 'http://www.camptocamp.com',
@@ -39,6 +46,9 @@
              'views/company_view.xml',
              'views/partner_view.xml',
              'security/ir.model.access.csv'],
+    'demo': [
+        'demo/better_zip.xml',
+    ],
     'installable': True,
-    'active': False,
+    'auto_install': False,
 }
